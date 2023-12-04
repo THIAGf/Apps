@@ -1,0 +1,89 @@
+*{
+   margin: 0; 
+   box-sizing: border-box;
+   height: auto;
+}
+	body{
+	text-align: center;	
+	background-image:url(img/ff.jpg);
+	background-repeat: no-repeat;
+	width: 100%;
+	background-size: cover;
+	min-height: 100vh;
+	height: auto;
+	font-family:fonnte ;
+}
+input::placeholder{
+	color: greenyellow;
+}
+@font-face{
+    font-family: fonnte;
+    src: url(bruce-forever-font/BruceForeverRegular-X3jd2.ttf);
+}
+h1{
+	color: blueviolet;
+}
+p{
+	cursor: pointer;
+	color: greenyellow;
+}
+label{
+	font-size:25px;
+	color: chartreuse;
+}
+#principal{
+	background-color: transparent;
+	border-radius: 10px;
+	border: 2px solid greenyellow;
+	height:auto;
+	width: 400px;
+	margin: auto;
+	margin-top: 50px;
+	padding: 25px;
+	box-shadow:3px 3px white;
+	transition: 1s;
+}
+input,button{
+	color: greenyellow;
+	cursor: pointer;
+	transition: 1s;
+	width:200px;
+    height:40px;
+    background-color:transparent;
+    color:greenyellow;
+    font-family: fonnte;
+	text-align: center;
+	box-shadow:0px 1px white;
+	border: none;
+}
+input:hover,button:hover,#principal:hover,.olho:hover{
+	transform: scale(1.11);
+	transition: 1s;
+}
+#principal:hover{
+	backdrop-filter: blur(10px);
+}
+.olho{
+	position: relative;
+	width:25px;
+	top: -24px;
+	left:129px;
+	transition: 1s;
+}
+@media screen and (max-width: 768px){
+	#principal{
+		background-color:transparent;
+		width: 350px;
+		margin-top: 80px;
+	}
+	.olho{
+		left:124px;
+		background-color:white;
+		border-radius: 8px;
+}
+
+
+
+
+
+  
